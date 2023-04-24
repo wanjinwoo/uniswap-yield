@@ -1,0 +1,9 @@
+chain = "ethereum"  # chain name, such as ethereum, polygon
+source = "bigquery"
+pool_address = "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640" # pool contract address
+save_path = "./data" # where to kept downloaded file. default value is "data"
+
+[big_query]
+start = "2023-4-20"  # download start date
+end = "2023-4-20"  # download end date, this date will be included, default value is today
+auth_file = "/Users/wanjinwoo/Desktop/Antalpha/demeter/demeter-365908-4265240fd066.json" 
